@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Serif+JP&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo {
+    font-family: 'Fjalla One', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.subtitulo {
+    font-family: 'Noto Serif JP', serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+fieldset {
+    border: outset 30px 30px 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 3em;
+}
+
+.notificacoes-titulo {
+    margin-top: 20px;
+}
+
+.campo-botao {
+   gap: 5px;
+}
+
+body {
+    background: linear-gradient(180deg, #b0e0e6 0%, #ff8ad2 100%);
+    font-family: 'Noto Serif JP', serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+    margin-top: 20px;
+    margin-left: 10px; 
+    margin-right: 20px;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #000000;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+    margin-left: 10px;
+}
+
+.campo input[type="text"], .campo imput[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px ;
+    display:block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo imput:focus, .campo select:focus, .campo textarea:focus{
+    background: #ffffff;
+}
+
+.botao{
+    font-family: 'Noto Serif JP', serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    background: #ffffff;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    box-shadow: 2px 2px 2px;
+    text-shadow: 1px 1px 1px;
+    position: static right;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #dc143c;
+    box-shadow: inset 2px 2px 2px;
+    text-shadow: none;
+}
